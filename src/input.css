@@ -8,7 +8,7 @@
 
 @layer components{
     .skillCard{
-        @apply  flex flex-col font-semibold text-2xl justify-evenly  mr-4 items-center mb-10 scale-90  hover:scale-100 transition-all ease-in-out delay-150  
+        @apply  flex flex-col font-semibold text-2xl justify-evenly  mr-10 items-center mb-10 scale-90  hover:scale-100 transition-all ease-in-out delay-150  
     }
     .cardHover{
         @apply border-0  transition-all ease-in-out delay-150 w-0  mt-2 rounded-xl

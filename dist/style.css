@@ -563,7 +563,7 @@ video {
 }
 
 .skillCard{
-  margin-right: 1rem;
+  margin-right: 2.5rem;
   margin-bottom: 2.5rem;
   display: flex;
   --tw-scale-x: .9;
@@ -976,6 +976,26 @@ video {
   padding-top: 4rem;
 }
 
+.pr-2{
+  padding-right: 0.5rem;
+}
+
+.pr-5{
+  padding-right: 1.25rem;
+}
+
+.pr-10{
+  padding-right: 2.5rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
+}
+
+.pl-5{
+  padding-left: 1.25rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1240,10 +1260,6 @@ video {
 
   .md\:max-w-96{
     max-width: 24rem;
-  }
-
-  .md\:max-w-\[1000px\]{
-    max-width: 1000px;
   }
 
   .md\:max-w-\[1200px\]{
