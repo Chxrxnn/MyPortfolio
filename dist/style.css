@@ -563,7 +563,7 @@ video {
 }
 
 .skillCard{
-  margin-right: 2.5rem;
+  margin-right: 1rem;
   margin-bottom: 2.5rem;
   display: flex;
   --tw-scale-x: .9;
@@ -610,6 +610,10 @@ video {
   top: 30px;
 }
 
+.m-0{
+  margin: 0px;
+}
+
 .mx-6{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -651,6 +655,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .mb-5{
   margin-bottom: 1.25rem;
 }
@@ -669,6 +677,10 @@ video {
 
 .mr-8{
   margin-right: 2rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .mt-14{
@@ -693,18 +705,6 @@ video {
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mt-8{
-  margin-top: 2rem;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
 }
 
 .box-border{
@@ -757,10 +757,6 @@ video {
 
 .w-32{
   width: 8rem;
-}
-
-.w-4\/5{
-  width: 80%;
 }
 
 .w-48{
@@ -923,6 +919,10 @@ video {
      object-fit: cover;
 }
 
+.p-0{
+  padding: 0px;
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -976,6 +976,10 @@ video {
   padding-top: 4rem;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1003,11 +1007,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-8xl{
   font-size: 6rem;
   line-height: 1;
@@ -1016,14 +1015,6 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[65px\]{
-  font-size: 65px;
-}
-
-.text-\[72px\]{
-  font-size: 72px;
 }
 
 .font-bold{
@@ -1263,6 +1254,10 @@ video {
     max-width: 400;
   }
 
+  .md\:max-w-\[800px\]{
+    max-width: 800px;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1278,5 +1273,9 @@ video {
   .md\:text-7xl{
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .md\:text-\[72px\]{
+    font-size: 72px;
   }
 }
