@@ -1,3 +1,6 @@
+
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +19,7 @@
 
     <!-- Navigation Bar Starting -->
 
-    <nav class="flex justify-between px-14 text-white py-5 items-center md:pr-40 h-20" id="home">
+    <nav class="flex justify-between px-14 text-white py-5 items-center md:pr-30 h-20" id="home">
         <div class="max-w-14">
             <img class="" src="./images/cLogo6.png" alt="">
         </div>
@@ -26,6 +29,9 @@
                 <div class=""></div>
             </li></a>
             
+            <a href="#about" ><li class="mx-6 cursor-pointer  hover:border-b-2 hover: border-yellow-300 pb-1">About</li>
+            </a>
+
            <a href="#skills" ><li class="mx-6 cursor-pointer  hover:border-b-2 hover: border-yellow-300 pb-1">Skills</li>
            </a>
            <a href="#projects"> <li class="mx-6 cursor-pointer hover:border-b-2 hover: border-yellow-300 pb-1">Projects</li></a>
@@ -40,44 +46,54 @@
 
     <!-- Landing Page Starting -->
 
-    <header>
-        <div class="flex mt-14 justify-evenly">
-            <div class="text-white">
+    <header class="border">
+        <div class="flex mt-8 justify-evenly md:flex-row flex-col items-center p-4 flex-wrap">
+            <div class="text-white mb-20 text-center md:text-left ">
                 <div>
-                    <div class="md:text-7xl font-bold text-5xl">
+                    <div class="md:text-7xl font-bold text-6xl text-center md:text-left mr-8">
 
                         <div class="">
                             <div>Hi,</div>
                             <div>I'm <span class="text-yellow-400">Charan</span></div>
                         </div>
 
-                        <div class="bg-yellow-400 mt-5 p-3 -skew-y-3 mb-3">Web Developer</div>
+                        <div class="bg-yellow-400 mt-5 p-3 -skew-y-3 mb-3 w-4/5 mx-auto md:text-left md:w-full">Web Developer</div>
                     </div>
                 </div>
 
-              <a href="#contact">
+              <a href="#contact" class="hidden md:block">
                 <button
                 class="p-2 px-10 rounded-md mt-14 bg-yellow-400 font-bold text-xl text-slate-800" id="#contact">Contact</button>
               </a> 
+
+              <div class="flex justify-center items-center md:block max-w-[800px]">
+                <div class="mt-16 w-60 flex justify-between">
+                    <a href="#" class="text-white text-3xl "><i
+                            class="fa-brands fa-linkedin-in transition duration-500 ease-in-out hover:text-yellow-400 cursor-pointer"></i></a>
+                    <a href="#" class="text-white text-3xl ">
+                        <i class="fa-brands fa-github hover:text-yellow-400 cursor-pointer"></i>
+                    </a>
+                    <a href="#" class="text-white text-3xl ">
+                        <i class="fa-brands fa-x-twitter hover:text-yellow-400 cursor-pointer"></i>
+                    </a>
+                    <a href="#" class="text-white text-3xl ">
+                        <i class="fa-brands fa-instagram hover:text-yellow-400 cursor-pointer"></i>
+                    </a>
+                </div>
+            </div>
             </div>
 
             <div>
-                <img class="rounded-full md:max-w-96 max-w-56" src="images/charan.jpg" alt="">
+                <img class="rounded-full md:max-w-96 max-w-80" src="images/charan.jpg" alt="">
             </div>
         </div>
-        <div class="mt-10  max-w-60 ml-10 md:ml-40 flex justify-between">
-            <a href="#" class="text-white text-3xl "><i
-                    class="fa-brands fa-linkedin-in transition duration-500 ease-in-out hover:text-yellow-400 cursor-pointer"></i></a>
-            <a href="#" class="text-white text-3xl ">
-                <i class="fa-brands fa-github hover:text-yellow-400 cursor-pointer"></i>
-            </a>
-            <a href="#" class="text-white text-3xl ">
-                <i class="fa-brands fa-x-twitter hover:text-yellow-400 cursor-pointer"></i>
-            </a>
-            <a href="#" class="text-white text-3xl ">
-                <i class="fa-brands fa-instagram hover:text-yellow-400 cursor-pointer"></i>
-            </a>
-        </div>
+
+       
+       
+        <a href="#contact" class="flex justify-center md:hidden">
+            <button
+            class="p-2 px-10 rounded-md mt-14 bg-yellow-400 font-bold text-xl text-slate-800" id="#contact">Contact</button>
+          </a>
     </header>
 
     <!-- Landing Page Ending -->
@@ -85,7 +101,7 @@
 
     <!-- About Starting -->
 
-    <section class="mt-16">
+    <section class="mt-16" id="about">
         <div class="text-3xl font-bold text-yellow-400  max-w-28 mx-auto">
             <h2 class="text-center">About</h2>
             <span class="block border-2 w-16 mx-auto mt-2 rounded-md  border-yellow-400 "></span>
@@ -333,7 +349,7 @@
         <!-- Projects Ending -->
 
         <!-- Contact Section Starting -->
-        <section class="mt-16" id="contact">
+        <section class="mt-16 p-3" id="contact">
             <div class="text-3xl font-bold text-yellow-400  max-w-28 mx-auto">
                 <h2 class="text-center">Contact</h2>
                 <span class="block border-2 w-16 mx-auto mt-2 rounded-md  border-yellow-400 mb-8"></span>
