@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/cLogo6.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Charan Portfolio</title>
+    <script src="https://kit.fontawesome.com/c25ad09d43.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-brands/css/uicons-brands.css'>
+</head>
+
+<body class="bg-slate-800">
+
+    <!-- Navigation Bar Starting -->
+
+    <nav class="flex justify-between px-14 text-white py-5 items-center md:pr-40 h-20" id="home">
+        <div class="max-w-14">
+            <img class="" src="./images/cLogo6.png" alt="">
+        </div>
+
+        <ul class="font-bold md:flex flex-col md:flex-row hidden" id="navItems">
+            <a href="#home"><li class="mx-6 cursor-pointer border-b-2  border-yellow-300 pb-1">Home
+                <div class=""></div>
+            </li></a>
+            
+           <a href="#skills" ><li class="mx-6 cursor-pointer  hover:border-b-2 hover: border-yellow-300 pb-1">Skills</li>
+           </a>
+           <a href="#projects"> <li class="mx-6 cursor-pointer hover:border-b-2 hover: border-yellow-300 pb-1">Projects</li></a>
+
+      <a href="#contact"><li class="mx-6 cursor-pointer hover:border-b-2 hover: border-yellow-300 pb-1">Contact Us</li> </a>
+        </ul>
+
+        <div class="md:hidden font-bold text-3xl cursor-pointer" onclick="show()" id="menu-btn">&#9776;</div>
+    </nav>
+
+    <!-- Navigation Bar Ending -->
+
+    <!-- Landing Page Starting -->
+
+    <header>
+        <div class="flex mt-14 justify-evenly">
+            <div class="text-white">
+                <div>
+                    <div class="md:text-7xl font-bold text-5xl">
+
+                        <div class="">
+                            <div>Hi,</div>
+                            <div>I'm <span class="text-yellow-400">Charan</span></div>
+                        </div>
+
+                        <div class="bg-yellow-400 mt-5 p-3 -skew-y-3 mb-3">Web Developer</div>
+                    </div>
+                </div>
+
+              <a href="#contact">
+                <button
+                class="p-2 px-10 rounded-md mt-14 bg-yellow-400 font-bold text-xl text-slate-800" id="#contact">Contact</button>
+              </a> 
+            </div>
+
+            <div>
+                <img class="rounded-full md:max-w-96 max-w-56" src="images/charan.jpg" alt="">
+            </div>
+        </div>
+        <div class="mt-10  max-w-60 ml-10 md:ml-40 flex justify-between">
+            <a href="#" class="text-white text-3xl "><i
+                    class="fa-brands fa-linkedin-in transition duration-500 ease-in-out hover:text-yellow-400 cursor-pointer"></i></a>
+            <a href="#" class="text-white text-3xl ">
+                <i class="fa-brands fa-github hover:text-yellow-400 cursor-pointer"></i>
+            </a>
+            <a href="#" class="text-white text-3xl ">
+                <i class="fa-brands fa-x-twitter hover:text-yellow-400 cursor-pointer"></i>
+            </a>
+            <a href="#" class="text-white text-3xl ">
+                <i class="fa-brands fa-instagram hover:text-yellow-400 cursor-pointer"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Landing Page Ending -->
+
+
+    <!-- About Starting -->
+
+    <section class="mt-16">
+        <div class="text-3xl font-bold text-yellow-400  max-w-28 mx-auto">
+            <h2 class="text-center">About</h2>
+            <span class="block border-2 w-16 mx-auto mt-2 rounded-md  border-yellow-400 "></span>
+        </div>
+
+        <div class="flex my-14 mx-auto md:w-[900px] md:justify-center flex-col items-center md:flex-row flex-wrap">
+
+            <div class="min-:max-w-[350px] md:mr-20 rounded-lg overflow-hidden max-w-[300px]">
+                <img src="./images/about.jpg" alt="">
+            </div>
+            <div class="md:max-w-[400] pt-16 text-white max-w-[500px] text-center md:text-left">
+                <h2 class="font-bold text-xl mb-2 text-wrap">Hello</h2>
+                <p class="font-semibold text-gray-300">
+                    My name is Charandeep Singh. I have completed my BCA degree in 2024.
+                    As a dedicated web developer with a specialization in front-end technologies, I bring a keen eye for
+                    design and a passion for creating seamless user experiences. My expertise lies in crafting
+                    responsive, dynamic interfaces that not only meet client specifications but also elevate user
+                    engagement. Currently, I am expanding my skill set to include back-end development, aiming to become
+                    a versatile full-stack developer. This continuous learning journey enables me to bridge the gap
+                    between design and functionality, ensuring cohesive and efficient web solutions. I thrive in
+                    collaborative environments and am committed to staying at the forefront of web development trends
+                    and best practices.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Ending -->
+
+    <!-- Skills Starting -->
+
+    <section class="mt-16" id="skills">
+        <div class="text-3xl font-bold text-yellow-400  max-w-28 mx-auto">
+            <h2 class="text-center">Skills</h2>
+            <span class="block border-2 w-16 mx-auto mt-2 rounded-md  border-yellow-400 "></span>
+
+        </div>
+        <div class="flex text-white justify-evenly flex-wrap max-w-[800px] mx-auto my-14 h-auto box-border overflow-hidden md:max-w-[1000px] p-2">
+
+            <div class="skillCard group duration-800">
+
+                <div><i class="fa-brands fa-html5 text-8xl"></i></div>
+
+                <div class="font-fnt3">HTML5</div>
+
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class="fa-brands fa-css3-alt text-8xl"></i></div>
+                <div class="font-fnt3">CSS3</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover " ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class="fa-brands fa-js text-8xl"></i></div>
+                <div class="font-fnt3">JavaScript</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover"></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class='bx bxl-tailwind-css text-8xl'></i></div>
+                <div class="font-fnt3">Tailwind</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class="fa-brands fa-php text-8xl"></i></div>
+
+                <div class="font-fnt3">PHP</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class="fa-brands fa-bootstrap text-8xl"></i></div>
+                <div class="font-fnt3">Bootstrap</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class="fi fi-brands-mysql text-8xl"></i></div>
+                <div class="font-fnt3">MySQL</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class='bx bxl-c-plus-plus text-8xl'></i></div>
+                <div class="font-fnt3">C++</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class='bx bxl-python text-8xl' style='color:#ffffff'></i></div>
+                <div class="font-fnt3">Python</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class='bx bxl-java text-8xl' style='color:#ffffff'></i></div>
+                <div class="font-fnt3">Java</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class="fa-solid fa-code text-8xl"></i></div>
+                <div class="font-fnt3">DSA</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+            <div class="skillCard group duration-800">
+                <div><i class='bx bxl-jquery text-8xl' style='color:#ffffff'></i></div>
+                <div class="font-fnt3">JQuery</div>
+                <span class="group-hover:border-2 group-hover: border-yellow-400 group-hover:w-4/5 cardHover" ></span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Ending -->
+
+    <!-- Projects Starting -->
+
+    <section class="mt-16" id="projects">
+        <div class="text-3xl font-bold text-yellow-400  max-w-28 mx-auto">
+            <h2 class="text-center">Projects</h2>
+            <span class="block border-2 w-16 mx-auto mt-2 rounded-md  border-yellow-400 "></span>
+
+        </div>
+        
+        <div class="flex text-white flex-wrap max-w-[800px] mx-auto my-14 h-auto box-border overflow-hidden md:max-w-[1200px] p-2  justify-evenly items-center">
+                <!-- First Project Starting -->
+
+            <div class="flex flex-col max-w-[500px] items-center mb-11 max-h-[420px]" >
+                
+                <div class="w-full rounded-lg overflow-hidden object-cover h-[250px]" >
+                   <a href="https://chxrxnn.github.io/InstaClone/" target="_blank">  <img class="hover:scale-110 transition-transform duration-700" src="./images/instaClone.png" alt=""> </a>
+                </div>
+                <div class="my-2">
+                    <h3 class="text-2xl font-semibold">Responsive Instagram Clone</h3>
+                </div>
+                <div class="my-4">
+                    <i class="fa-brands fa-html5 text-4xl text-red-700 mr-3"></i>
+                    <i class="fa-brands fa-css3-alt text-4xl text-blue-700"></i>
+                </div>
+                
+                <p class="text-gray-400 font-semibold">It is the clone of Instagram home page. It is fully responsive. Additionally, it includes hovering effect using transitions property of CSS. It is developed using HTML5 and CSS3 only.</p>
+            </div>
+
+            <!--First Project Ending -->
+
+            <!-- Second Project starting -->
+            <div class="flex flex-col max-w-[500px] items-center mb-11 max-h-[420px]" >
+                
+                <div class="w-full rounded-lg overflow-hidden object-cover " >
+                   <a href="https://chxrxnn.github.io/CardHoveringAnimation/" target="_blank">  <img class="hover:scale-110 transition-transform duration-700" src="./images/cardHovering.png" alt=""> </a>
+                </div>
+                <div class="my-2">
+                    <h3 class="text-2xl font-semibold">Card Hovering Effect</h3>
+                </div>
+                <div class="my-2">
+                    <i class="fa-brands fa-html5 text-4xl text-red-700 mr-3"></i>
+                    <i class="fa-brands fa-css3-alt text-4xl text-blue-700"></i>
+                </div>
+                
+                <p class="text-gray-400 font-semibold">It includes cards, when we hover over a card, it shows a smooth and amazing transition that is worth to watch. CSS variaibles are used in this to make it simple. It is developed using HTML5 and CSS3 only.</p>
+            </div>
+            <!-- second Project Ending -->
+            
+            <!-- Third Project Starting -->
+
+            <div class="flex flex-col max-w-[500px] items-center mb-11 max-h-[420px]" >
+                
+                <div class="w-full rounded-lg overflow-hidden object-cover" >
+                    <a href="https://chxrxnn.github.io/QRCodeGenerator/" target="_blank"> <img class="hover:scale-110 transition-transform duration-700" src="./images/qrcodeGenerator.png" alt=""> </a>
+                </div>
+                <div class="my-2">
+                    <h3 class="text-2xl font-semibold">QR Code Generator</h3>
+                </div>
+                <div class="my-2">
+                    <i class="fa-brands fa-html5 text-4xl text-red-700 mr-3"></i>
+                    <i class="fa-brands fa-css3-alt text-4xl text-blue-700 mr-3"></i>
+                    <i class="fa-brands fa-js text-4xl text-yellow-700"></i>
+
+                </div>
+                
+                <p class="text-gray-400 font-semibold">In this project, QR Code is generated corresponding to entered text or URL using API. It includes user-friendly interface. It is developed using HTML5, CSS3 and JavaScript.</p>
+            </div>
+
+            <!-- 3rd Project Ending -->
+
+            <!-- 4th Project Starting -->
+
+            <div class="flex flex-col max-w-[500px] items-center mb-11 max-h-[420px]" >
+                
+                <div class="w-full rounded-lg overflow-hidden object-cover" >
+                   <a href="https://chxrxnn.github.io/WeatherApp/" target="_blank">  <img class="hover:scale-110 transition-transform duration-700" src="./images/weatherApp.png" alt=""> </a>
+                </div>
+                <div class="my-2">
+                    <h3 class="text-2xl font-semibold">Weather App</h3>
+                </div>
+                <div class="my-2">
+                    <i class="fa-brands fa-html5 text-4xl text-red-700 mr-3"></i>
+                    <i class="fa-brands fa-css3-alt text-4xl text-blue-700 mr-3"></i>
+                    <i class="fa-brands fa-js text-4xl text-yellow-700"></i>
+
+                </div>
+                
+                <p class="text-gray-400 font-semibold">In In this project, In order to get weather details you have to enter name of city. It fetch data from weather API using async-await. </p>
+            </div>
+
+            <!-- 4th Project Ending -->
+
+            <!-- 5th Project Starting -->
+            <div class="flex flex-col max-w-[500px] items-center mb-11 max-h-[420px]" >
+                
+                <div class="w-full rounded-lg overflow-hidden object-cover" >
+                   <a href="https://chxrxnn.github.io/toDoList/" target="_blank">  <img class="hover:scale-110 transition-transform duration-700" src="./images/todolist.png" alt=""> </a>
+                </div>
+                <div class="my-2">
+                    <h3 class="text-2xl font-semibold">To-do List</h3>
+                </div>
+                <div class="my-2">
+                    <i class="fa-brands fa-html5 text-4xl text-red-700 mr-3"></i>
+                    <i class="fa-brands fa-css3-alt text-4xl text-blue-700 mr-3"></i>
+                    <i class="fa-brands fa-js text-4xl text-yellow-700"></i>
+
+                </div>
+                
+                <p class="text-gray-400 font-semibold">In In this project, you can note down your works to do and if noted down work is finished then it can be marked as done. You can also remove work by clicking on cross button. It is designed with good-looking interface.</p>
+            </div>
+             <!--5th Project Ending  -->
+
+             <!-- 6th Project Starting -->
+             <div class="flex flex-col max-w-[500px] items-center mb-11 max-h-[420px]" >
+                
+                <div class="w-full rounded-lg overflow-hidden object-cover" >
+                    <a href="https://chxrxnn.github.io/SimpleCalculator/" target="_blank"> <img class="hover:scale-110 transition-transform duration-700" src="./images/simpleCalculator.png" alt=""> </a>
+                </div>
+                <div class="my-2">
+                    <h3 class="text-2xl font-semibold">Simple Calculator</h3>
+                </div>
+                <div class="my-2">
+                    <i class="fa-brands fa-html5 text-4xl text-red-700 mr-3"></i>
+                    <i class="fa-brands fa-css3-alt text-4xl text-blue-700 mr-3"></i>
+                    <i class="fa-brands fa-js text-4xl text-yellow-700"></i>
+
+                </div>
+                
+                <p class="text-gray-400 font-semibold">It is simple Calculator with beautiful interface which uses JavaScript to perform simple mathematical operations (Division, Multiplication, Addition, Subtraction).</p>
+            </div>
+              <!-- 6th Project Ending -->
+        </div>
+        </section>
+
+        <!-- Projects Ending -->
+
+        <!-- Contact Section Starting -->
+        <section class="mt-16" id="contact">
+            <div class="text-3xl font-bold text-yellow-400  max-w-28 mx-auto">
+                <h2 class="text-center">Contact</h2>
+                <span class="block border-2 w-16 mx-auto mt-2 rounded-md  border-yellow-400 mb-8"></span>
+            </div>
+
+            <form class="flex flex-col max-w-[600px] mx-auto">
+                <input class="mb-5 rounded-sm p-2 placeholder:text-gray-700 placeholder:font-semibold" type="text" name="" id="" placeholder="Name">
+                <input class="mb-5 rounded-sm p-2 placeholder:text-gray-700 placeholder:font-semibold" type="email" name="" id="" placeholder="Email">
+                <textarea class="mb-5 rounded-sm p-2 placeholder:text-gray-700 placeholder:font-semibold"  name="" id="" rows="8"> </textarea>
+                <button class="bg-yellow-400 w-48 text-center mx-auto py-2 px-7 rounded-md font-bold text-slate-800">Send</button>
+            </form>
+        </section>
+
+        <!-- Contact Section Ending -->
+
+        <!--Footer Starting-->
+        <footer class="bg-slate-600 text-white flex flex-col justify-center items-center gap-5 mt-28 p-8">
+            <div class="text-3xl font-bold tracking-wider font-fnt2">Charan</div>
+
+            <div class="mx-auto">
+                <i class="fa-brands fa-instagram hover:scale-105 hover:text-[#d62976] cursor-pointer text-3xl mr-5"></i>
+                <i class="fa-brands fa-x-twitter hover:scale-105 hover:text-blue-500 cursor-pointer text-3xl mr-5"></i>
+                <i class="fa-brands fa-github hover:scale-105 hover:text-black cursor-pointer text-3xl "></i>
+            </div>
+            <div class="font-medium">&copy;2024 Copyright All Rights Reserved</div>
+        </footer>
+        <!-- Footer Ending -->
+
+        <script>
+            function show(){
+               let items =  document.getElementById("navItems");
+               items.classList.toggle("hidden");
+
+               let mBtn = document.getElementById("menu-btn");
+               console.log(mBtn.innerHTML);
+
+               if(mBtn.innerHTML=="☰")
+               {
+                mBtn.innerHTML="&#10060;";
+               }
+               else{
+                mBtn.innerHTML="&#9776;";
+               }
+                /*
+                absolute right-24 bg-slate-800 top-[30px] gap-3 rounded-xl*/
+               items.classList.toggle("absolute");
+               items.classList.toggle("right-24");
+               items.classList.toggle("top-[30px]");
+               items.classList.toggle("gap-3");
+               items.classList.toggle("rounded-xl");
+               items.classList.toggle("bg-slate-800");
+               items.classList.toggle("flex");
+            }
+            
+        </script>
+</body>
+
+</html>
